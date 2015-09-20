@@ -1,0 +1,13 @@
+<ion-view >
+<ion-content scroll="false" id="mapContainer">
+<div id="trackerMap"></div>
+</ion-content>
+
+</ion-view>
+<div class="bar bar-footer bar-clear">
+  <div class="title">
+    <button class="button button-assertive" data-ng-click="toggleLock()" data-ng-if="locked">Locked <i class="ion-locked"></i></button>
+    <button class="button button-balanced" data-ng-click="toggleLock()" data-ng-if="!locked">Unlocked <i class="ion-unlocked"></i></button>
+    <button class="button button-assertive" data-ng-click="fakeStolen()" >Stolen <i class="ion-fireball"></i></button>
+  </div>
+</div>
